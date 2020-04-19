@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LAB4_3</string>
+    <string name="add_task">DODAJ</string>
+    <string name="task_description"></string>
+    <string name="task_title"></string>
+    <string name="default_description">Def Description</string>
+    <string name="default_title">Def title</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="birthday">Birthday</string>
+    <string name="info">Calling</string>
+    <string name="yes">Yes</string>
+    <string name="zno">No</string>
+    <string name="phonenumber">Phone Number</string>
+    <string-array name="images">
+        <item>drawable 1</item>
+        <item>drawable 2</item>
+        <item>drawable 3</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_selected_msg"></string>
+</resources>
