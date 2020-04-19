@@ -43,14 +43,14 @@ public class TaskListContent {
 
 
     private static Task createDummyItem(int position) {
-        return new Task(String.valueOf(position), "Item " + position, makeDetails(position), "","","");
+        return new Task(String.valueOf(position), "Item "+position, makeDetails(position), "123456789","03/08/1996","");
     }
 
     private static String makeDetails(int position) {
         StringBuilder builder = new StringBuilder();
-        builder.append("Details about Item: ").append(position);
+        //builder.append("").append(position);
         for (int i = 0; i < position; i++) {
-            builder.append("\nMore details information here.");
+            builder.append("\n");
         }
         return builder.toString();
     }
